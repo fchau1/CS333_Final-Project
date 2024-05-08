@@ -17,4 +17,4 @@ jobs:
       - name: publish
         run: |
           docker login -u fchau1 -p ${{ secrets.DOCKER_HUB_TOKEN }}
-          docker push fchau1/CS333FinalProject-docker-hub:latest
+          docker push fchau1/cs333-final-project-docker-hub:latest
