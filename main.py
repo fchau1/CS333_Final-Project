@@ -3,7 +3,7 @@ from Database import Database
 from Table import Table
 
 if __name__ == "__main__":
-    print("Welcome to my CS333 Final Project")
+    print("Hello! Welcome to my CS333 Final Project")
     table = Table(["name", "year"])
     database = Database()
     database.add_table(table, "Students") 
