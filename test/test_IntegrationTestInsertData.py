@@ -3,7 +3,7 @@ from DatabaseManager import DatabaseManager
 from Database import Database
 from Table import Table
 
-class IntegrationTestInsertData(unittest.TestCase):
+class test_IntegrationTestInsertData(unittest.TestCase):
     def setUp(self):
         self.table = Table(["name", "year"])
         self.database = Database()

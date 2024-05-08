@@ -2,7 +2,7 @@ import unittest
 from Database import Database
 from Table import Table
 
-class UnitTestDB(unittest.TestCase):
+class test_UnitTestDB(unittest.TestCase):
     def setUp(self):
         self.database = Database()
 

@@ -1,7 +1,7 @@
 import unittest
 from Table import Table
 
-class UnitTestTable(unittest.TestCase):
+class test_UnitTestTable(unittest.TestCase):
     def setUp(self):
         self.table = Table(["name", "year"])
 

@@ -3,7 +3,7 @@ from DatabaseManager import DatabaseManager
 from Database import Database
 from Table import Table
 
-class IntegrationTestSwitchDB(unittest.TestCase):
+class test_IntegrationTestSwitchDB(unittest.TestCase):
     def setUp(self):
         self.manager = DatabaseManager()
         self.db1 = Database()

@@ -3,7 +3,7 @@ from DatabaseManager import DatabaseManager
 from Database import Database
 from Table import Table
 
-class IntegrationTestDeleteDatabase(unittest.TestCase):
+class test_IntegrationTestDeleteDatabase(unittest.TestCase):
     def setUp(self):
         self.manager = DatabaseManager()
         self.database = Database()

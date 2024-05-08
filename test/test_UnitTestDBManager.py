@@ -2,7 +2,7 @@ import unittest
 from DatabaseManager import DatabaseManager
 from Database import Database
 
-class UnitDB1Manager(unittest.TestCase):
+class test_UnitDB1Manager(unittest.TestCase):
     def setUp(self):
         self.manager = DatabaseManager()
 
