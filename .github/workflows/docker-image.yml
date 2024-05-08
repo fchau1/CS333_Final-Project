@@ -13,7 +13,7 @@ jobs:
       - name: checkout
         uses: actions/checkout@v4
       - name: build
-        run: docker build . -t fchau1/CS333FinalProject-docker-hub:latest
+        run: docker build . -t fchau1/cs333-final-project-docker-hub:latest
       - name: publish
         run: |
           docker login -u fchau1 -p ${{ secrets.DOCKER_HUB_TOKEN }}
